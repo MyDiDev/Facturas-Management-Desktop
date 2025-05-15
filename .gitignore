@@ -1,0 +1,57 @@
+## Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+*.exe
+*.dll
+*.pdb
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+## Visual Studio specific folders
+.vs/
+.vscode/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+project.lock.json
+project.fragment.lock.json
+
+## Auto-generated files
+Generated_Code/
+
+## Windows Forms Designer auto-saves
+*.Designer.cs~
+
+## Logs
+*.log
+
+## Publish output
+publish/
+AppPackages/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+## Backup & temp files
+*.bak
+*.tmp
+*.swp
+*.~*
+
+## Others
+_ReSharper*/
+*.resharper
+*.DotSettings.user
