@@ -107,18 +107,15 @@ En el formulario donde deseas mostrar el informe:
      ```csharp
      private void Form1_Load(object sender, EventArgs e)
      {
-         // Configurar el origen de datos
          var encabezado = new List<EncabezadoFactura>(); // Lista de encabezado
          var detalle = new List<DetalleFactura>(); // Lista de detalles
 
-         // Establecer los parámetros del informe
          var parametros = new ReportParameter[]
          {
              new ReportParameter("Titulo", "Factura de Ejemplo"),
              new ReportParameter("Empresa", "Mi Empresa S.A.")
          };
 
-         // Configurar el ReportViewer
          reportViewer1.LocalReport.ReportPath = @"C:\Ruta\Al\Informe\Factura.rdlc";
          reportViewer1.LocalReport.DataSources.Clear();
          reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("Encabezado", encabezado));
