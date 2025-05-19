@@ -41,8 +41,6 @@ cd Facturas-Management-Desktop
     ```
 - **Abre un pull request** y describelo.
 
-Claro, puedo ayudarte a crear una documentación básica para utilizar el control **ReportViewer** en una aplicación de Windows Forms con C#. Este control permite visualizar informes en formatos como RDLC o desde un servidor de informes como SQL Server Reporting Services (SSRS).
-
 ---
 
 ## 📄 Guía Rápida para Usar ReportViewer en C# WinForms
